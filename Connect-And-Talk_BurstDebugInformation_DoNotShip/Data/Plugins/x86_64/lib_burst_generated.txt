@@ -1,7 +1,7 @@
 Library: E:\Unity\connect and talk\Connect-And-Talk\Temp\BurstOutput\Data\Plugins\x86_64\lib_burst_generated
 --platform=Windows
 --backend=burst-llvm-15
---target=X64_SSE2
+--target=AVX2
 --global-safety-checks-setting=Off
 --meta-data-generation=False
 --dump=Function
@@ -29,6 +29,7 @@ Library: E:\Unity\connect and talk\Connect-And-Talk\Temp\BurstOutput\Data\Plugin
 --assembly-defines=Unity.2D.Common.Runtime;
 --assembly-defines=Unity.InternalAPIEngineBridge.001;
 --assembly-defines=Unity.Timeline;
+--assembly-defines=Elringus.UnityRawInput.Runtime;
 --assembly-defines=Unity.Mathematics;
 --assembly-defines=Unity.VisualScripting.State;
 --assembly-defines=Unity.Collections.LowLevel.ILSupport;
@@ -100,7 +101,7 @@ Library: E:\Unity\connect and talk\Connect-And-Talk\Temp\BurstOutput\Data\Plugin
 --method=Unity.Jobs.IJobExtensions+JobStruct`1[[Unity.Collections.NativeStream+ConstructJob, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Collections.NativeStream+ConstructJob&, Unity.Collections, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)--b78f808503c8b5fe97a83e833bd5871d
 --platform=Windows
 --backend=burst-llvm-15
---target=AVX2
+--target=X64_SSE2
 --global-safety-checks-setting=Off
 --meta-data-generation=False
 --dump=Function
@@ -128,6 +129,7 @@ Library: E:\Unity\connect and talk\Connect-And-Talk\Temp\BurstOutput\Data\Plugin
 --assembly-defines=Unity.2D.Common.Runtime;
 --assembly-defines=Unity.InternalAPIEngineBridge.001;
 --assembly-defines=Unity.Timeline;
+--assembly-defines=Elringus.UnityRawInput.Runtime;
 --assembly-defines=Unity.Mathematics;
 --assembly-defines=Unity.VisualScripting.State;
 --assembly-defines=Unity.Collections.LowLevel.ILSupport;
